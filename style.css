@@ -12,7 +12,7 @@
     background:rgba(0, 0,0, 0.6)url(https://wallpapercave.com/wp/wc1813161.jpg);
     background-blend-mode: darken;
     background-size: cover;
-    height: 115vh;
+    height: 100vh;
     padding: 10px;
 
 }
@@ -205,13 +205,16 @@ span:hover{
     align-items: center;
     margin: 10px 0px 5px 5px;
 }
+.add-minus *{
+    margin: 3px;
+}
 #add{
     color: green;
     font-weight: bold;
     border: 2px solid green;
-    border-radius: 10%;
-    height: 20px;
-    width: 20px;
+    border-radius: 2px;
+    height: 16px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,9 +223,9 @@ span:hover{
     color: rgb(255, 0, 0)en;
     font-weight: bold;
     border: 2px solid rgb(255, 0, 0);
-    border-radius: 10%;
-    height: 20px;
-    width: 20px;
+    border-radius: 2px;
+    height: 16px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -333,15 +336,17 @@ footer{
     border-radius: 20px;
 }
 .confirm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid rgb(83, 83, 211);
+    border-radius: 10px;
 }
-.confirm img{
-    border: none;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
+.confirm p{
+    color: rgb(83, 83, 211);
+}
+.confirm:hover{
+    background-color: rgb(236, 236, 234);
+    border: 2px solid rgb(83, 83, 211);
 }
 .warn{
     color: black;
